@@ -1,5 +1,8 @@
-import pywhatkit
-wno = input('whatsapp number: ')
+#this program is used for send a message to your loved once
+
+
+import pywhatkit          # pywhatkit install using pip install pywhatkit then import
+wno = input('whatsapp number: ')   
 msg = input('Message: ')
 hr = int(input('hour: '))
 min = int(input('minutes: '))
